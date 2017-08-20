@@ -12,7 +12,7 @@ def quick_sort(l):
 	greater = []
 	pivot = l[0]
 	for i in l:
-		if i > pivot:
+		if i > pivot:c
 			greater.append(i)
 		elif i < pivot:
 			less.append(i)
