@@ -1,3 +1,11 @@
+# -*- coding: utf-8 -*-
+'''
+Author: Jimmy Chen
+PN: leetcode 476, Created Aug. 2017
+Ver: 1.0 (finish)
+Link: https://leetcode.com/problems/number-complement/description/
+''' 
+# --------------------------------------------------- solution
 import math
 
 class Solution(object):

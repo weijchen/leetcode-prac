@@ -1,3 +1,11 @@
+# -*- coding: utf-8 -*-
+'''
+Author: Jimmy Chen
+PN: leetcode 442, Created Aug. 2017
+Ver: 1.0
+Link: https://leetcode.com/problems/find-all-duplicates-in-an-array/
+''' 
+# --------------------------------------------------- solution
 class Solution(object):
     def findDuplicates(nums):
         """

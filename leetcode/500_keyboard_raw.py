@@ -1,3 +1,11 @@
+# -*- coding: utf-8 -*-
+'''
+Author: Jimmy Chen
+PN: leetcode 500, Created Aug. 2017
+Ver: 1.0 (finish)
+Link: https://leetcode.com/problems/keyboard-row/
+''' 
+# --------------------------------------------------- solution
 class Solution(object):
     def findWords(words):
         """

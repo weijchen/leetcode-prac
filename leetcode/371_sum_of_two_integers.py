@@ -1,3 +1,11 @@
+# -*- coding: utf-8 -*-
+'''
+Author: Jimmy Chen
+PN: leetcode 551, Created Aug. 2017
+Ver: 1.0
+Link: https://leetcode.com/problems/sum-of-two-integers/description/
+''' 
+# --------------------------------------------------- solution
 class Solution(object):
     def getSum(self, a, b):
         """

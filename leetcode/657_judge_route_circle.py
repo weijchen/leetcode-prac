@@ -1,3 +1,11 @@
+# -*- coding: utf-8 -*-
+'''
+Author: Jimmy Chen
+PN: leetcode 657, Created Aug. 2017
+Ver: 1.0 (finish)
+Link: https://leetcode.com/problems/judge-route-circle/description/
+''' 
+# --------------------------------------------------- solution
 class Solution(object):
     def judgeCircle(self, moves):
         """

@@ -1,3 +1,11 @@
+# -*- coding: utf-8 -*-
+'''
+Author: Jimmy Chen
+PN: leetcode 617, Created Aug. 2017
+Ver: 1.0 (finish)
+Link: https://leetcode.com/problems/merge-two-binary-trees/
+''' 
+# --------------------------------------------------- solution
 # Definition for a binary tree node.
 class TreeNode(object):
     def __init__(self, x):
