@@ -4,6 +4,7 @@ Author: Jimmy Chen
 PN: leetcode 122, Created Sep. 2017
 Ver: 1.0 (finish)
 Link: https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/
+Tag: Array, Greedy
 ''' 
 # --------------------------------------------------- solution
 class Solution(object):

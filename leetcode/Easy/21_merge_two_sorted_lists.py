@@ -3,7 +3,8 @@
 Author: Jimmy Chen
 PN: leetcode 21, Created Aug. 2017
 Ver: 1.0 (finish)
-Link: https://leetcode.com/problems/merge-two-sorted-lists/discuss/
+Link: https://leetcode.com/problems/merge-two-sorted-lists/description/
+Tag: Linked list
 ''' 
 # --------------------------------------------------- solution
 # Definition for singly-linked list.

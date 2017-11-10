@@ -4,6 +4,7 @@ Author: Jimmy Chen
 PN: leetcode 171, Created Aug. 2017
 Ver: 1.0 (finish)
 Link: https://leetcode.com/problems/excel-sheet-column-number/description/
+Tag: Math
 ''' 
 # --------------------------------------------------- solution
 class Solution(object):

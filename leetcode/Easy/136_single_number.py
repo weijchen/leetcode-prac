@@ -4,6 +4,7 @@ Author: Jimmy Chen
 PN: leetcode 136, Created Aug. 2017
 Ver: 1.0
 Link: https://leetcode.com/problems/single-number/description/
+Tag: Hash table, Bit manipulation
 ''' 
 # --------------------------------------------------- solution
 class Solution(object):

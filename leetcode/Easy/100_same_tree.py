@@ -4,6 +4,7 @@ Author: Jimmy Chen
 PN: leetcode 100, Created Aug. 2017
 Ver: 1.0 (finish)
 Link: https://leetcode.com/problems/same-tree/description/
+Tag: Tree, DFS
 ''' 
 # --------------------------------------------------- solution
 # Definition for a binary tree node.

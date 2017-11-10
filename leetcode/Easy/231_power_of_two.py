@@ -4,6 +4,7 @@ Author: Jimmy Chen
 PN: leetcode 231, Created Aug. 2017
 Ver: 1.0 (finish)
 Link: https://leetcode.com/problems/power-of-two/description/
+Tag: Math, Bit manipulation
 ''' 
 # --------------------------------------------------- solution
 class Solution(object):

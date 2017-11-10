@@ -4,6 +4,7 @@ Author: Jimmy Chen
 PN: leetcode 1, Created Aug. 2017
 Ver: 1.0 (finish)
 Link: https://leetcode.com/problems/two-sum/description/
+Tag: Array, Hash table
 ''' 
 # --------------------------------------------------- solution
 class Solution(object):

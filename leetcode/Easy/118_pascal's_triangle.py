@@ -4,6 +4,7 @@ Author: Jimmy Chen
 PN: leetcode 118, Created Sep. 2017
 Ver: 1.0 (finish)
 Link: https://leetcode.com/problems/pascals-triangle/description/
+Tag: Array
 ''' 
 # --------------------------------------------------- solution
 class Solution(object):

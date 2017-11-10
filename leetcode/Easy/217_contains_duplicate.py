@@ -4,6 +4,7 @@ Author: Jimmy Chen
 PN: leetcode 217, Created Sep. 2017
 Ver: 1.0 (finish)
 Link: https://leetcode.com/problems/contains-duplicate/description/
+Tag: Array, Hash table
 ''' 
 # --------------------------------------------------- solution
 class Solution(object):
