@@ -13,6 +13,8 @@ Tag: Tree
 #         self.val = x
 #         self.left = None
 #         self.right = None
+
+# ===== Solution 1 =====
 class Solution(object):
     def isSubtree(self, s, t):
         """
@@ -61,3 +63,52 @@ class Solution(object):
                     vallevel.append(0)
             curlevel = newlevel
         return vallevel
+
+# ===== Solution 2 =====
+# [3,4,5,1,2,null,null,null,null,0]
+# [1,null,1,null,1,null,1,null,1,null,1,null,1,null,1,null,1,null,1,null,1,2]
+# [1,null,1,null,1,null,1,null,1,null,1,2]
+class Solution:
+    def isSubtree(self, s, t):
+        """
+        :type s: TreeNode
+        :type t: TreeNode
+        :rtype: bool
+        """
+        return self.traverse(s, t) 
+        
+    def traverse(self, s, t_head):
+        if s == None:
+            return False
+        if s.val == t_head.val:
+            s_lis, t_lis = [], []
+            a = self.inorder(s, s_lis)
+            b = self.inorder(t_head, t_lis)
+            print("a: {}".format(a))
+            print("b: {}".format(b))
+            if a == b:
+                # print("hi")
+                return True
+            else:
+                if s.left != None and s.right != None:
+                    return self.traverse(s.left, t_head) or self.traverse(s.right, t_head)
+                elif s.left != None and s.right == None:
+                    return self.traverse(s.left, t_head)
+                elif s.right != None and s.left == None:
+                    return self.traverse(s.right, t_head)
+                else:
+                    return False
+            
+    def inorder(self, n, lis):
+        if n.left != None and n.right != None:
+            self.inorder(n.left, lis)
+            lis.append(n.val)
+            self.inorder(n.right, lis)
+        elif n.left != None and n.right == None:
+            self.inorder(n.left, lis)
+            lis.append(n.val)
+        elif n.right != None and n.left == None:
+            lis.append(n.val)
+            self.inorder(n.right, lis)
+        else:
+            return lis

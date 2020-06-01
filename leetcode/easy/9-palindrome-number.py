@@ -1,12 +1,9 @@
 # -*- coding: utf-8 -*-
 '''
-Author: Jimmy Chen
-PN: leetcode 9, Created Sep. 2017
-Ver: 1.0 (finish)
 Link: https://leetcode.com/problems/palindrome-number/description/
 Tag: Math
 ''' 
-# --------------------------------------------------- solution
+# --------------------------------------------------- solution 1
 class Solution(object):
     def isPalindrome(self, x):
         """
@@ -28,3 +25,18 @@ class Solution(object):
                 if reverted == x:
                     return True
         return False
+
+# ---------------------------------------------------- solution 2
+class Solution(object):
+	def isPalindrome(self, x):
+		"""
+		:type x: int
+		:rtype: bool
+		"""
+		if x < 0:
+		  return False
+		else
+			if x == int(str(x)[::-1]):
+				return True
+			else:
+				return False

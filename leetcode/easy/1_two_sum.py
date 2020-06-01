@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 '''
 Author: Jimmy Chen
-PN: leetcode 1, Created Aug. 2017
-Ver: 1.0 (finish)
 Link: https://leetcode.com/problems/two-sum/description/
 Tag: Array, Hash table
 ''' 
@@ -37,7 +35,7 @@ class Solution(object):
         if len(nums) <= 1:
             return False
         dict = {}
-        for idx in xrange(len(nums)):
-            if nums[idx] in dict:
-                return [dict[nums[idx]], idx]
-            dict[target-nums[idx]] = idx;
+				for i, n in enumerate(nums):
+					if n in dict:
+						return [dict[n], i]
+					dict[target-n] = i
